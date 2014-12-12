@@ -7,5 +7,5 @@
   :repl-options {:init-ns koan-engine.runner
                  :init (do (use '[koan-engine.core]))}
   :plugins [[lein-koan "0.1.3"]
-            [cider/cider-nrepl "0.8.0-SNAPSHOT"]]
+            [cider/cider-nrepl "0.8.1"]]
   :main koan-engine.runner/exec)
